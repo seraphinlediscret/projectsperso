@@ -1,232 +1,298 @@
+/* mobile first */
 
-h1 {font-family: 'Righteous', cursive;
+h1 {
+    font-family: 'Righteous', cursive;
     font-family: 'Cinzel', serif;
     text-align: center;
     font-size: 30px;
-    color: red; }
+    color: red;
+}
 
-    h2{color: black;
-        font-size: 30px;
-text-decoration: underline;
-background-color: yellowgreen;
-    }
-    
-a{ padding: 20px;
-        text-decoration: none;
-        font-family: 'Cutive Mono', monospace;
-        font-size: 35px;
-        color:whitesmoke;
-        border: 1px solid white;
-        border-top: none;
-        border-bottom: none;}
-    
+h2 {
+    color: black;
+    font-size: 30px;
+    text-decoration: underline;
+    background-color: yellowgreen;
+}
 
-body{background:url(fromage3.jpg);
+
+
+
+body {
+    background: url(fromage3.jpg);
     background-size: cover;
-    background-attachment: fixed;}
+    background-attachment: fixed;
+}
 
-    header{
-        display: inline-flex;
-        font-family: 'Mali', cursive;
-        font-size: 30px;
-        border: 5px solid white;
-        border-radius: 10px;
-        flex-direction: column;
-        padding: 40px;
-        margin-bottom:40px;
-        background-image:url(ardoise.jpeg);
-        background-size: cover;
-        position: relative;
-        left: 4px;}
+header {
+    display: flex;
+    font-family: 'Mali', cursive;
+    font-size: 30px;
+    border: 5px solid white;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 40px;
+    margin-bottom: 40px;
+    background-image: url(ardoise.jpeg);
+    background-size: cover;
+    margin: auto;
+    width: 67vw;
+}
 
-article{
+a {
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 32px;
+    color: whitesmoke;
+    border: 1px solid white;
+    border-top: none;
+    border-bottom: none;
+    margin: auto;
+    width: 43vw;
+}
+
+a:hover {
+    color: yellowgreen;
+}
+
+article {
     display: flex;
     flex-direction: column;
     text-align: center;
     border: 5px solid white;
     border-radius: 5px;
     width: 81%;
-position: relative;
-left: 27px;
-    margin-bottom: 80px;
+    position: relative;
+    left: 27px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     background-image: url(ardoise.jpeg);
 }
 
-footer{
+footer {
     border: 1px white solid;
     margin-top: 20px;
     background-image: url(ardoise.jpeg);
     color: white;
     display: flex;
-   align-items: center;
-   justify-content: space-around;
+    align-items: center;
+    justify-content: space-around;
     width: 100%;
     height: 200px;
-    }
+}
 
-.pied{
+.pied {
     border: 2px solid white;
-    border-radius:5px;
+    border-radius: 5px;
     border-top: none;
     border-bottom: none;
     color: white;
     padding: 4px;
     width: 25%;
-    font-size: 12px;}
-    .fab{color: rgb(22, 84, 155);
-        margin-bottom: 30px;}
+    font-size: 12px;
+}
 
-        .tel{color: white;
-            font-size: 20px;
-        margin-bottom: 20px;}
+.fab {
+    color: rgb(22, 84, 155);
+    margin-bottom: 30px;
+}
 
-@media screen and (min-width:768px){
+.tel {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
 
-    a{ padding: 20px;
+/* ipad */
+
+@media screen and (min-width:768px) {
+
+
+
+    h2 {
+        color: black;
+        font-size: 30px;
+        text-decoration: underline;
+        background-color: yellowgreen;
+    }
+
+    body {
+        background: url(fromage3.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    header {
+        display: flex;
+        font-family: 'Mali', cursive;
+        font-size: 30px;
+        border: 5px solid white;
+        border-radius: 10px;
+        position: relative;
+        left: -4px;
+        padding: 40px;
+        margin-bottom: 40px;
+        background-image: url(ardoise.jpeg);
+        background-size: cover;
+        flex-direction: column;
+        width: 40%;
+        text-align: center;
+    }
+
+    a {
+        padding: 20px;
         text-decoration: none;
         font-family: 'Cutive Mono', monospace;
         font-size: 35px;
-        color:whitesmoke;
+        color: whitesmoke;
         border: 1px solid white;
         border-top: none;
-        border-bottom: none;}
+        border-bottom: none;
+        width: 31vw;
+    }
 
-        h2{color: black;
-            font-size: 30px;
-    text-decoration: underline;
-    background-color: yellowgreen;
-        }
+    a:hover {
+        color: yellowgreen;
+    }
 
-body{
-    background:url(fromage3.jpg);
-    background-size: cover;
-    background-attachment: fixed;}
-
-header{
-    display: flex;
-    font-family: 'Mali', cursive;
-    font-size: 30px;
-    border: 5px solid white;
-    border-radius: 10px;
-    position: relative;
-    left: 196px;
-    padding: 40px;
-    margin-bottom: 40px;
-    background-image: url(ardoise.jpeg);
-    background-size: cover;
-    flex-direction: column;
-    width: 40%;
-    text-align: center;}
-
-    article{
+    article {
         display: flex;
         flex-direction: column;
         text-align: center;
         border: 5px solid white;
         border-radius: 5px;
         width: 51%;
-position: relative;
-left: 197px;
+        position: relative;
+        left: 177px;
         margin-bottom: 80px;
         background-image: url(ardoise.jpeg);
     }
 
-    footer{border: 1px white solid;
+    footer {
+        border: 1px white solid;
         margin-top: 20px;
         background-image: url(ardoise.jpeg);
         color: white;
         display: flex;
         align-items: center;
         justify-content: space-around;
-         width: 100%;
-        height: 200px;}
+        width: 100%;
+        height: 200px;
+    }
 
-        .pied{
-            border: 2px solid white;
-            border-radius:5px;
-            border-top: none;
-            border-bottom: none;
-            color: white;
-           text-align: center;
+    .pied {
+        border: 2px solid white;
+        border-radius: 5px;
+        border-top: none;
+        border-bottom: none;
+        color: white;
+        text-align: center;
         padding: 10px;
         width: 20%;
-    font-size: 15px;}
-    
-.fab{color: rgb(22, 84, 155);
-    margin-bottom: 30px;}
-
-.tel{color: white;
-    font-size: 20px;
-margin-bottom: 20px;}
-}
-@media screen and (min-width:1320px){
-
-h1 {font-family: 'Righteous', cursive;
-    font-family: 'Cinzel', serif;
-    text-align: center;
-    font-size: 50px;
-    color: red; }
-    h2{color: black;
-        font-size: 30px;
-text-decoration: underline;
-background-color: yellowgreen;
+        font-size: 15px;
     }
-    
-    a{ padding: 20px;
+
+    .fab {
+        color: rgb(22, 84, 155);
+        margin-bottom: 30px;
+    }
+
+    .tel {
+        color: white;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* ordinateur */
+
+@media screen and (min-width:1320px) {
+
+    h1 {
+        font-family: 'Righteous', cursive;
+        font-family: 'Cinzel', serif;
+        text-align: center;
+        font-size: 50px;
+        color: red;
+    }
+
+    h2 {
+        color: black;
+        font-size: 30px;
+        text-decoration: underline;
+        background-color: yellowgreen;
+    }
+
+    .fab {
+        color: rgb(22, 84, 155);
+        margin-bottom: 30px;
+    }
+
+    body {
+        background: url(fromage3.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    a {
+        padding: 20px;
         text-decoration: none;
         font-family: 'Cutive Mono', monospace;
         font-size: 35px;
-        color:whitesmoke;
+        color: whitesmoke;
         border: 1px solid white;
         border-top: none;
         border-bottom: none;
+        margin: auto;
+        width: 22vw;
     }
-    
-        .fab{color: rgb(22, 84, 155);
-        margin-bottom: 30px;}
 
-body{
-    background:url(fromage3.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-header{
-    display: flex;
-    flex-direction: row;
-    font-family: 'Mali', cursive;
-    font-size: 30px;
-    border: 5px solid white;
-    border-radius: 10px;
-    position: relative;
-    left: 222px;
-    padding: 40px;
-    margin-bottom:40px;
-    background-image:url(ardoise.jpeg);
-    background-size: cover;
-    width: 60%;}
+    a:hover {
+        color: yellowgreen;
+    }
 
-    footer{border: 1px white solid;
+    header {
+        display: flex;
+        flex-direction: row;
+        font-family: 'Mali', cursive;
+        font-size: 30px;
+        border: 5px solid white;
+        border-radius: 10px;
+        padding: 40px;
+        margin-bottom: 40px;
+        background-image: url(ardoise.jpeg);
+        background-size: cover;
+        margin: auto;
+        width: 64vw;
+    }
+
+    footer {
+        border: 1px white solid;
         margin-top: 20px;
         background-image: url(ardoise.jpeg);
         color: white;
         display: flex;
-       align-items: center;
-       justify-content: space-around;
+        align-items: center;
+        justify-content: space-around;
         width: 100%;
-        height: 200px;}
-    
-    .pied{border: 2px solid white;
-        border-radius:5px;
+        height: 200px;
+    }
+
+    .pied {
+        border: 2px solid white;
+        border-radius: 5px;
         border-top: none;
         border-bottom: none;
         color: white;
-       text-align: center;
-    padding: 10px;
-    width: 20%;
-    font-size: 20px;}
+        text-align: center;
+        padding: 10px;
+        width: 20%;
+        font-size: 20px;
+    }
 
 
-    article{
+    article {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -235,10 +301,13 @@ header{
         width: 30%;
         position: relative;
         left: 461px;
-        margin-bottom: 80px;
+        margin-bottom: 20px;
         background-image: url(ardoise.jpeg);
     }
-    .tel{color: white;
-    font-size: 20px;
-margin-bottom: 20px;}
+
+    .tel {
+        color: white;
+        font-size: 20px;
+        margin-bottom: 20px;
     }
+}
